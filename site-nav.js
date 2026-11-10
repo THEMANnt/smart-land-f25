@@ -1,0 +1,1 @@
+(()=>{"use strict";const link=document.querySelector('.language-switch');if(link)link.addEventListener('click',()=>{const target=new URL(link.href);target.hash=location.hash;link.href=target.href;});})();
